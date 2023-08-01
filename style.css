@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0e0e0e;
+}
+.navbar {
+background-color: #0e0e0e;
+height: 10vh;
+}
+.navbar img {
+    margin: 30px;
+}
+.list {
+    position: relative;
+    bottom: 55px;
+    left: 600px;
+}
+.list ul {
+    display: flex;
+    color: white;
+}
+.list ul li {
+    margin-left: 60px;
+    font-size: 20px;
+}
+.butoon{
+    float: right;
+    background-color: white;
+    height: 5vh;
+    width: 100px;
+    color: black;
+    position: relative;
+    bottom: 90px;
+    right: 110px;
+}
+.butoon p {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 9px;
+}
+.container{
+    text-align: center;
+    margin: 80px;
+    color: white;
+}
+.container h1 {
+    font-weight: lighter;
+    font-size: 90px;
+}
+.container p {
+    margin-top: 20px;
+    margin-left: 320px;
+    margin-right: 320px;
+    font-weight: 200;
+    font-size: 20px;
+}
+.all-img{
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img {
+        height: 350px;
+        width: 380px;
+        margin-left: 6px;
+        justify-content: center;
+}
+
+.img img {
+    border: 4px solid rgb(26, 26, 26);
+    height: 280px;
+    justify-content: center;
+    margin-left: 16px;
+}
+.img p {
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.white-secshen {
+    background-color: white;
+}
+white-img img {
+    height: 400px;
+    width: 600px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.view {
+    position: relative;
+    bottom: 340px;
+    left: 550px;
+    margin-right: 600px;
+    margin-left: 200px;
+}
+.view h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+.booton1 {
+    border: 2px solid rgb(26, 26, 26);
+    background-color: #0e0e0e;
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 40px;
+    width: 190px;
+    color: rgb(255, 255, 255);
+}
+.booton1 p {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+.blocks {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 80px;
+    padding-bottom: 90px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    padding: 18px;
+    background-color: rgba(128, 128, 128, 0.472);
+}
